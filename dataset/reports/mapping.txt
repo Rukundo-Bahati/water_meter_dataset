@@ -1,0 +1,31 @@
+wm_clean_000001
+  image_from: raw_dataset\images\wm_0166.jpeg
+  label_from: raw_dataset\labels\wm_0166.txt
+
+wm_clean_000002
+  image_from: raw_dataset\images\wm_0383.png
+  label_from: raw_dataset\labels\wm_0383.txt
+
+wm_clean_000003
+  image_from: raw_dataset\images\wm_0553.jpeg
+  label_from: raw_dataset\labels\wm_0553.txt
+
+wm_clean_000004
+  image_from: raw_dataset\images\wm_0798.jpg
+  label_from: raw_dataset\labels\wm_0798.txt
+
+wm_clean_000005
+  image_from: raw_dataset\images\wm_0800.jpg
+  label_from: raw_dataset\labels\wm_0800.txt
+
+wm_clean_000006
+  image_from: raw_dataset\images\wm_0836.jpeg
+  label_from: raw_dataset\labels\wm_0836.txt
+
+wm_clean_000007
+  image_from: raw_dataset\images\wm_0896.jpeg
+  label_from: raw_dataset\labels\wm_0896.txt
+
+wm_clean_000008
+  image_from: raw_dataset\images\wm_0975.jpeg
+  label_from: raw_dataset\labels\wm_0975.txt

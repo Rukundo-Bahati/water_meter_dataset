@@ -1,0 +1,19 @@
+path: E:\Notes\Y3\Robotics\T3\yolo_labeler\dataset
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: meter
+  1: window
+  2: 0
+  3: 1
+  4: 2
+  5: 3
+  6: 4
+  7: 5
+  8: 6
+  9: 7
+  10: 8
+  11: 9
+  12: u
