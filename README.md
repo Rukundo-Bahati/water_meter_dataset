@@ -84,3 +84,41 @@ python3 scripts/run.py scripts/05_retrain.py
 ```
 
 The helper will detect `venv` and re-exec the appropriate Python interpreter automatically.
+
+### Predict/Inference
+
+Run predictions on test images using the trained model:
+
+Git Bash / MSYS:
+
+```bash
+./venv/Scripts/python scripts/04_predict.py
+```
+
+PowerShell (when `venv` activated):
+
+```powershell
+venv\Scripts\python.exe scripts/04_predict.py
+```
+
+Or using the helper script:
+
+```bash
+python3 scripts/run.py 04_predict
+```
+
+The prediction script will:
+- Automatically find the latest trained model (`best.pt`) from `training_runs/`
+- Use images from `dataset/images/test/`
+- Save annotated images with bounding boxes
+- Save prediction `.txt` files in YOLO format
+- Save confidence scores
+- Output results to `prediction_outputs/test_predictions/`
+
+**Custom prediction parameters:**
+
+You can modify the prediction script to adjust:
+- `CONFIDENCE`: Minimum confidence threshold (default: 0.25)
+- `IMAGE_SIZE`: Input image size (default: 640)
+- `SAVE_TXT`: Save prediction text files (default: True)
+- `SAVE_CONF`: Save confidence scores (default: True)
